@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Dsbap" targetNamespace="http://tempuri.org/Dsbap.xsd" xmlns:mstns="http://tempuri.org/Dsbap.xsd" xmlns="http://tempuri.org/Dsbap.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Dsbap" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Dsbap" msprop:Generator_UserDSName="Dsbap">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="emailnotif" msprop:Generator_TableClassName="emailnotifDataTable" msprop:Generator_TableVarName="tableemailnotif" msprop:Generator_TablePropName="emailnotif" msprop:Generator_RowDeletingName="emailnotifRowDeleting" msprop:Generator_RowChangingName="emailnotifRowChanging" msprop:Generator_RowEvHandlerName="emailnotifRowChangeEventHandler" msprop:Generator_RowDeletedName="emailnotifRowDeleted" msprop:Generator_UserTableName="emailnotif" msprop:Generator_RowChangedName="emailnotifRowChanged" msprop:Generator_RowEvArgName="emailnotifRowChangeEvent" msprop:Generator_RowClassName="emailnotifRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NAMA" msprop:Generator_ColumnVarNameInTable="columnNAMA" msprop:Generator_ColumnPropNameInRow="NAMA" msprop:Generator_ColumnPropNameInTable="NAMAColumn" msprop:Generator_UserColumnName="NAMA" type="xs:string" minOccurs="0" />
+              <xs:element name="ALAMAT" msprop:Generator_ColumnVarNameInTable="columnALAMAT" msprop:Generator_ColumnPropNameInRow="ALAMAT" msprop:Generator_ColumnPropNameInTable="ALAMATColumn" msprop:Generator_UserColumnName="ALAMAT" type="xs:string" minOccurs="0" />
+              <xs:element name="JABATAN" msprop:Generator_ColumnVarNameInTable="columnJABATAN" msprop:Generator_ColumnPropNameInRow="JABATAN" msprop:Generator_ColumnPropNameInTable="JABATANColumn" msprop:Generator_UserColumnName="JABATAN" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtlapppbr" msprop:Generator_TableClassName="dtlapppbrDataTable" msprop:Generator_TableVarName="tabledtlapppbr" msprop:Generator_RowChangedName="dtlapppbrRowChanged" msprop:Generator_TablePropName="dtlapppbr" msprop:Generator_RowDeletingName="dtlapppbrRowDeleting" msprop:Generator_RowChangingName="dtlapppbrRowChanging" msprop:Generator_RowEvHandlerName="dtlapppbrRowChangeEventHandler" msprop:Generator_RowDeletedName="dtlapppbrRowDeleted" msprop:Generator_RowClassName="dtlapppbrRow" msprop:Generator_UserTableName="dtlapppbr" msprop:Generator_RowEvArgName="dtlapppbrRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PLU" msprop:Generator_ColumnVarNameInTable="columnPLU" msprop:Generator_ColumnPropNameInRow="PLU" msprop:Generator_ColumnPropNameInTable="PLUColumn" msprop:Generator_UserColumnName="PLU" type="xs:string" minOccurs="0" />
+              <xs:element name="DESKRIPSI" msprop:Generator_ColumnVarNameInTable="columnDESKRIPSI" msprop:Generator_ColumnPropNameInRow="DESKRIPSI" msprop:Generator_ColumnPropNameInTable="DESKRIPSIColumn" msprop:Generator_UserColumnName="DESKRIPSI" type="xs:string" minOccurs="0" />
+              <xs:element name="SATUAN" msprop:Generator_ColumnVarNameInTable="columnSATUAN" msprop:Generator_ColumnPropNameInRow="SATUAN" msprop:Generator_ColumnPropNameInTable="SATUANColumn" msprop:Generator_UserColumnName="SATUAN" type="xs:string" minOccurs="0" />
+              <xs:element name="QTY" msprop:Generator_ColumnVarNameInTable="columnQTY" msprop:Generator_ColumnPropNameInRow="QTY" msprop:Generator_ColumnPropNameInTable="QTYColumn" msprop:Generator_UserColumnName="QTY" type="xs:string" minOccurs="0" />
+              <xs:element name="HARGA" msprop:Generator_ColumnVarNameInTable="columnHARGA" msprop:Generator_ColumnPropNameInRow="HARGA" msprop:Generator_ColumnPropNameInTable="HARGAColumn" msprop:Generator_UserColumnName="HARGA" type="xs:string" minOccurs="0" />
+              <xs:element name="NILAI" msprop:Generator_ColumnVarNameInTable="columnNILAI" msprop:Generator_ColumnPropNameInRow="NILAI" msprop:Generator_ColumnPropNameInTable="NILAIColumn" msprop:Generator_UserColumnName="NILAI" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtrkpbapnomor" msprop:Generator_TableClassName="dtrkpbapnomorDataTable" msprop:Generator_TableVarName="tabledtrkpbapnomor" msprop:Generator_RowChangedName="dtrkpbapnomorRowChanged" msprop:Generator_TablePropName="dtrkpbapnomor" msprop:Generator_RowDeletingName="dtrkpbapnomorRowDeleting" msprop:Generator_RowChangingName="dtrkpbapnomorRowChanging" msprop:Generator_RowEvHandlerName="dtrkpbapnomorRowChangeEventHandler" msprop:Generator_RowDeletedName="dtrkpbapnomorRowDeleted" msprop:Generator_RowClassName="dtrkpbapnomorRow" msprop:Generator_UserTableName="dtrkpbapnomor" msprop:Generator_RowEvArgName="dtrkpbapnomorRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NOBAP" msprop:Generator_ColumnVarNameInTable="columnNOBAP" msprop:Generator_ColumnPropNameInRow="NOBAP" msprop:Generator_ColumnPropNameInTable="NOBAPColumn" msprop:Generator_UserColumnName="NOBAP" type="xs:string" minOccurs="0" />
+              <xs:element name="TANGGAL" msprop:Generator_ColumnVarNameInTable="columnTANGGAL" msprop:Generator_ColumnPropNameInRow="TANGGAL" msprop:Generator_ColumnPropNameInTable="TANGGALColumn" msprop:Generator_UserColumnName="TANGGAL" type="xs:string" minOccurs="0" />
+              <xs:element name="NILAI" msprop:Generator_ColumnVarNameInTable="columnNILAI" msprop:Generator_ColumnPropNameInRow="NILAI" msprop:Generator_ColumnPropNameInTable="NILAIColumn" msprop:Generator_UserColumnName="NILAI" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtrkpbapitem" msprop:Generator_TableClassName="dtrkpbapitemDataTable" msprop:Generator_TableVarName="tabledtrkpbapitem" msprop:Generator_RowChangedName="dtrkpbapitemRowChanged" msprop:Generator_TablePropName="dtrkpbapitem" msprop:Generator_RowDeletingName="dtrkpbapitemRowDeleting" msprop:Generator_RowChangingName="dtrkpbapitemRowChanging" msprop:Generator_RowEvHandlerName="dtrkpbapitemRowChangeEventHandler" msprop:Generator_RowDeletedName="dtrkpbapitemRowDeleted" msprop:Generator_RowClassName="dtrkpbapitemRow" msprop:Generator_UserTableName="dtrkpbapitem" msprop:Generator_RowEvArgName="dtrkpbapitemRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PLU" msprop:Generator_ColumnVarNameInTable="columnPLU" msprop:Generator_ColumnPropNameInRow="PLU" msprop:Generator_ColumnPropNameInTable="PLUColumn" msprop:Generator_UserColumnName="PLU" type="xs:string" minOccurs="0" />
+              <xs:element name="DESKRIPSI" msprop:Generator_ColumnVarNameInTable="columnDESKRIPSI" msprop:Generator_ColumnPropNameInRow="DESKRIPSI" msprop:Generator_ColumnPropNameInTable="DESKRIPSIColumn" msprop:Generator_UserColumnName="DESKRIPSI" type="xs:string" minOccurs="0" />
+              <xs:element name="TANGGAL" msprop:Generator_ColumnVarNameInTable="columnTANGGAL" msprop:Generator_ColumnPropNameInRow="TANGGAL" msprop:Generator_ColumnPropNameInTable="TANGGALColumn" msprop:Generator_UserColumnName="TANGGAL" type="xs:string" minOccurs="0" />
+              <xs:element name="SATUAN" msprop:Generator_ColumnVarNameInTable="columnSATUAN" msprop:Generator_ColumnPropNameInRow="SATUAN" msprop:Generator_ColumnPropNameInTable="SATUANColumn" msprop:Generator_UserColumnName="SATUAN" type="xs:string" minOccurs="0" />
+              <xs:element name="QTY" msprop:Generator_ColumnVarNameInTable="columnQTY" msprop:Generator_ColumnPropNameInRow="QTY" msprop:Generator_ColumnPropNameInTable="QTYColumn" msprop:Generator_UserColumnName="QTY" type="xs:string" minOccurs="0" />
+              <xs:element name="NILAI" msprop:Generator_ColumnVarNameInTable="columnNILAI" msprop:Generator_ColumnPropNameInRow="NILAI" msprop:Generator_ColumnPropNameInTable="NILAIColumn" msprop:Generator_UserColumnName="NILAI" type="xs:string" minOccurs="0" />
+              <xs:element name="NOBAP" msprop:Generator_ColumnVarNameInTable="columnNOBAP" msprop:Generator_ColumnPropNameInRow="NOBAP" msprop:Generator_ColumnPropNameInTable="NOBAPColumn" msprop:Generator_UserColumnName="NOBAP" type="xs:string" minOccurs="0" />
+              <xs:element name="DIV" msprop:Generator_ColumnVarNameInTable="columnDIV" msprop:Generator_ColumnPropNameInRow="DIV" msprop:Generator_ColumnPropNameInTable="DIVColumn" msprop:Generator_UserColumnName="DIV" type="xs:string" minOccurs="0" />
+              <xs:element name="DEPT" msprop:Generator_ColumnVarNameInTable="columnDEPT" msprop:Generator_ColumnPropNameInRow="DEPT" msprop:Generator_ColumnPropNameInTable="DEPTColumn" msprop:Generator_UserColumnName="DEPT" type="xs:string" minOccurs="0" />
+              <xs:element name="KAT" msprop:Generator_ColumnVarNameInTable="columnKAT" msprop:Generator_ColumnPropNameInRow="KAT" msprop:Generator_ColumnPropNameInTable="KATColumn" msprop:Generator_UserColumnName="KAT" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="lapcsv" msprop:Generator_TableClassName="lapcsvDataTable" msprop:Generator_TableVarName="tablelapcsv" msprop:Generator_TablePropName="lapcsv" msprop:Generator_RowDeletingName="lapcsvRowDeleting" msprop:Generator_RowChangingName="lapcsvRowChanging" msprop:Generator_RowEvHandlerName="lapcsvRowChangeEventHandler" msprop:Generator_RowDeletedName="lapcsvRowDeleted" msprop:Generator_UserTableName="lapcsv" msprop:Generator_RowChangedName="lapcsvRowChanged" msprop:Generator_RowEvArgName="lapcsvRowChangeEvent" msprop:Generator_RowClassName="lapcsvRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PLU" msprop:Generator_ColumnVarNameInTable="columnPLU" msprop:Generator_ColumnPropNameInRow="PLU" msprop:Generator_ColumnPropNameInTable="PLUColumn" msprop:Generator_UserColumnName="PLU" type="xs:string" minOccurs="0" />
+              <xs:element name="DESKRIPSI" msprop:Generator_ColumnVarNameInTable="columnDESKRIPSI" msprop:Generator_ColumnPropNameInRow="DESKRIPSI" msprop:Generator_ColumnPropNameInTable="DESKRIPSIColumn" msprop:Generator_UserColumnName="DESKRIPSI" type="xs:string" minOccurs="0" />
+              <xs:element name="QTY" msprop:Generator_ColumnVarNameInTable="columnQTY" msprop:Generator_ColumnPropNameInRow="QTY" msprop:Generator_ColumnPropNameInTable="QTYColumn" msprop:Generator_UserColumnName="QTY" type="xs:string" minOccurs="0" />
+              <xs:element name="KETERANGAN" msprop:Generator_ColumnVarNameInTable="columnKETERANGAN" msprop:Generator_ColumnPropNameInRow="KETERANGAN" msprop:Generator_ColumnPropNameInTable="KETERANGANColumn" msprop:Generator_UserColumnName="KETERANGAN" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

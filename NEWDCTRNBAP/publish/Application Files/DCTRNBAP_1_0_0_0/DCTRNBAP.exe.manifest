@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DCTRNBAP.exe" version="1.0.0.0" publicKeyToken="896db10a1b294461" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DCTRNBAP" version="1.0.0.2" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DCTRNBAP.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DevComponents.DotNetBar.Schedule" version="14.1.0.31" publicKeyToken="7EB7C3A35B91DE04" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DevComponents.DotNetBar.SuperGrid" version="14.1.0.31" publicKeyToken="7EB7C3A35B91DE04" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DevComponents.DotNetBar2" version="14.1.0.31" publicKeyToken="7EB7C3A35B91DE04" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DevComponents.Instrumentation" version="14.1.0.31" publicKeyToken="F90DC37C26666A67" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DCTRNBAP.exe" size="167936">
+      <assemblyIdentity name="DCTRNBAP" version="1.0.0.2" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>LjUUGxpApincVAjhKbb6Eu4lPkQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SD3Fungsi.dll" size="16896">
+      <assemblyIdentity name="SD3Fungsi" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>OybqkSHAC1Eo2mvzSSN7lX6yJ2o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SettingLib.dll" size="21504">
+      <assemblyIdentity name="SettingLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Gv2goAi95BdRCGl6mmtpcLsEGk8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=OKDIAN-SD3\Edwin" issuerKeyHash="b3fc05643bd68d3d55d00ef8218c0d4b872f0c9b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>UjQYdT6UTWMLF6u0q9hB8VD/FTo=</DigestValue></Reference></SignedInfo><SignatureValue>QhIuRxouUJseWEdkCCU3IuaDbYOZLcRaookhMwJDqTFGve9MWu3ANX64y36+T5Gi+dZtvSyGKPtBqhZnKAa2R/2+JU12lWiPZ21cg7VhntNcF4akG716tquClYXfZcQpXTnMchCCziABVdpmBB4UuneM4vhGM7gaJ1XEOt0l7eo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sQyNXlY2hDAH30x6yD4Ozm2KRqmIEWrRBhea15ZKKPW7IxvQKpOazpECICVT5NvzNkb2+2VenZmfHvduGQnYzWChQHuoSOs/PnxH/a0856qLFmzqdxzfqLHnn6SoSECMzcTMQIaayYtOwAIRPvpgMm1J9IJgH+J0ufJXg2xUp7k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3a15ff50f141d8abb4ab170b634d943e75183452" Description="" Url=""><as:assemblyIdentity name="DCTRNBAP.exe" version="1.0.0.0" publicKeyToken="896db10a1b294461" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=OKDIAN-SD3\Edwin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ENIr8hv4pV5alLcEv/AymNHzXJk=</DigestValue></Reference></SignedInfo><SignatureValue>R2gbuNWQM51QGbE4UcryyT4IaffOuPxcK9Bau3inF1wRLyw3gLz0TJQKv5fag5Xl07RHvIH69o5n/uszMl0ZoDEBZbLC20tGrZzHFRKRZuvte2hRBuA5JIM4avatiHnaFQlXDugNF1xJ7eGv4Qhu73cGRX93gA129bbKdu+NozQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sQyNXlY2hDAH30x6yD4Ozm2KRqmIEWrRBhea15ZKKPW7IxvQKpOazpECICVT5NvzNkb2+2VenZmfHvduGQnYzWChQHuoSOs/PnxH/a0856qLFmzqdxzfqLHnn6SoSECMzcTMQIaayYtOwAIRPvpgMm1J9IJgH+J0ufJXg2xUp7k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQcOS35AJUko9B64NmVregpzANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAATwBLAEQASQBBAE4ALQBTAEQAMwBcAEUAZAB3AGkAbjAeFw0xODA4MTQwMzU4NDNaFw0xOTA4MTQwOTU4NDNaMCsxKTAnBgNVBAMeIABPAEsARABJAEEATgAtAFMARAAzAFwARQBkAHcAaQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxDI1eVjaEMAffTHrIPg7ObYpGqYgRatEGF5rXlkoo9bsjG9Aqk5rOkQIgJVPk2/M2Rvb7ZV6dmZ8e924ZCdjNYKFAe6hI6z8+fEf9rTznqosWbOp3HN+oseefpKhIQIzNxMxAhprJi07AAhE++mAybUn0gmAf4nS58leDbFSnuQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAKyeAKmYIJWerBLmj+6/jmn6PWSZjdeu/+8rXnGyx3GBifw1u1GY01Di1AUllEwBY/SaSq5djxgWtedbA3sM7Qulxvo/jc416CnEBnSkrftB0IkThtkCM7f3inREOZpH2c7YtbWEsI9KjFuW4pG5iFfAJV48T4LYa5wRUIYT5VFc</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
