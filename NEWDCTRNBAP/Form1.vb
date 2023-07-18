@@ -850,7 +850,8 @@ Public Class frmtrnbap
             Dim tgltrans, jnstrans, notrans, brttrans, kodeotp, linkapp, judul, kodehal As String
             tgltrans = tblotp.Rows(0)("TGL_DOC")
             kodehal = tblotp.Rows(0)("KODE_HAL")
-            Dim abc As Date = Convert.ToDateTime(tgltrans).ToString("MM/dd/yyyy")
+            Dim abc As Date = DateTime.ParseExact(tgltrans.ToString, "dd/MM/yyyy", System.Globalization.CultureInfo.InvariantCulture)
+            'Dim abc As Date = Convert.ToDateTime(tgltrans).ToString("MM/dd/yyyy")
             Dim tglpros As String = IIf(abc.Day.ToString.Length = 1, "0" & abc.Day, abc.Day) & " - " & IIf(abc.Month.ToString.Length = 1, "0" & abc.Month, abc.Month) & " - " & abc.Year
             Dim jamtrans As Date = Convert.ToDateTime(tgltrans).ToString("HH:mm:ss")
             judul = tblotp.Rows(0)("SUBJECT")

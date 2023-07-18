@@ -366,7 +366,7 @@ Module mtrnbap
             cmd.CommandType = CommandType.Text
             cmd.CommandText = query
             cmd.ExecuteNonQuery()
-            cmd.Dispose()
+            'cmd.Dispose()
             conection.Close()
 
 
@@ -376,7 +376,7 @@ Module mtrnbap
             cmd.CommandType = CommandType.Text
             cmd.CommandText = query
             cmd.ExecuteNonQuery()
-            cmd.Dispose()
+            ' cmd.Dispose()
             conection.Close()
 
             conection.Open()
@@ -385,7 +385,7 @@ Module mtrnbap
             cmd.CommandType = CommandType.Text
             cmd.CommandText = query
             cmd.ExecuteNonQuery()
-            cmd.Dispose()
+            'cmd.Dispose()
             conection.Close()
 
 
@@ -593,7 +593,12 @@ Module mtrnbap
             cmd.Parameters.Add(New Oracle.ManagedDataAccess.Client.OracleParameter("p_msg", Oracle.ManagedDataAccess.Client.OracleDbType.Varchar2, 200, ParameterDirection.Output, False, CType(0, Byte), CType(0, Byte), "", DataRowVersion.Current, Nothing))
             cmd.Parameters.Item(0).Value = noppbr
             cmd.ExecuteNonQuery()
-            ret = cmd.Parameters.Item(2).Value.ToString
+            If cmd.Parameters.Item(2).Value.ToString = "null" Then
+                ret = ""
+            Else
+                ret = cmd.Parameters.Item(2).Value.ToString
+            End If
+
         Catch ex As Exception
             ret = ex.ToString
         Finally
@@ -630,7 +635,13 @@ Module mtrnbap
             cmd.Parameters.Add(New Oracle.ManagedDataAccess.Client.OracleParameter("p_msg", Oracle.ManagedDataAccess.Client.OracleDbType.Varchar2, 200, ParameterDirection.Output, False, CType(0, Byte), CType(0, Byte), "", DataRowVersion.Current, Nothing))
             cmd.Parameters.Item(0).Value = noppbr
             cmd.ExecuteNonQuery()
-            ret = cmd.Parameters.Item(1).Value.ToString
+            If cmd.Parameters.Item(1).Value.ToString = "null" Then
+                ret = ""
+            Else
+                ret = cmd.Parameters.Item(1).Value.ToString
+            End If
+            'ret = cmd.Parameters.Item(1).Value.ToString
+
         Catch ex As Exception
             ret = ex.ToString
         Finally
@@ -679,7 +690,11 @@ Module mtrnbap
             cmd.Parameters.Add(New Oracle.ManagedDataAccess.Client.OracleParameter("p_msg", Oracle.ManagedDataAccess.Client.OracleDbType.Varchar2, 200, ParameterDirection.Output, False, CType(0, Byte), CType(0, Byte), "", DataRowVersion.Current, Nothing))
             cmd.Parameters.Item(0).Value = bapid
             cmd.ExecuteNonQuery()
-
+            If cmd.Parameters.Item(1).Value.ToString = "null" Then
+                ret = ""
+            Else
+                ret = cmd.Parameters.Item(1).Value.ToString
+            End If
             ret = cmd.Parameters.Item(1).Value.ToString
         Catch ex As Exception
             ret = ex.ToString
